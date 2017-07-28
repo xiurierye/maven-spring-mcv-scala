@@ -12,6 +12,7 @@ build/
 out/
 *.iml
 .idea/
+.idea/workspace.xml
 
 #eclipse
 .settings
