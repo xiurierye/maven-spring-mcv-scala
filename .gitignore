@@ -1,3 +1,38 @@
+#Maven#
+target/
+build/
+
+#mac osx
+.DS_Store
+
+#log file
+*.log
+
+#intellij
+out/
 *.iml
 .idea/
-target/
+
+#eclipse
+.settings
+.classpath
+.project
+.externalToolBuilders
+bin/
+
+# frontend
+node
+node_modules
+rev
+bower_components
+_css
+bundle.js
+dist.zip
+
+.tmp
+.sass-cache
+__ConfigTemp
+logs/
+
+# misc
+Thumbs.db
