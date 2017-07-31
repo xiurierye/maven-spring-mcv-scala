@@ -17,7 +17,9 @@ class HelloWorldController {
 
 
   case class  Person(age:Int,any: Any)
-  class anotherPerson(age:Int)
+  class anotherPerson(age:Int, name:String){
+    def getAge()=age
+  }
 
   @RequestMapping(value = Array("/map"))
   @ResponseBody
@@ -29,5 +31,5 @@ class HelloWorldController {
 
   @RequestMapping(value = Array("/get406"))
   @ResponseBody
-  def get406= new  anotherPerson(12)
+  def get406= new  anotherPerson(12,"xrry")
 }
